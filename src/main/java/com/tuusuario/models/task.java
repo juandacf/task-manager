@@ -1,0 +1,35 @@
+package com.tuusuario.models;
+
+public class task {
+
+    private int taskId;
+    private String taskName;
+    private String taskDescription;
+
+    public task(int id, String name, String description) {
+        this.taskId = id;
+        this.taskName = name;
+        this.taskDescription = description;
+    }
+
+    public int getTaskId() {
+        return taskId;
+    }
+
+    
+    public String getTaskName() {
+        return this.taskName;
+    }
+
+    public void setTaskName(String name) {
+        this.taskName = name;
+    }
+
+    public String getTaskDescription() {
+        return this.taskDescription;
+    }
+
+    public void setTaskDescription(String taskDescription) {
+        this.taskDescription = taskDescription;
+    }
+}
