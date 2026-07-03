@@ -5,7 +5,7 @@ public class task {
     private int taskId;
     private String taskName;
     private String taskDescription;
-    public Boolean isCompleted;
+    private Boolean isCompleted;
 
     public task(int id, String name, String description) {
         this.taskId = id;
